@@ -1,0 +1,29 @@
+body{
+  background-color: #187FDE;
+  margin: 0;
+  padding: 50px 0;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.card{
+  background-color: white;
+  margin: 20px;
+  width: 300px;
+  border-radius: 15px;
+  filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.15));
+  transition: 1s;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card > main > img{
+  border-radius: 15px 15px 0 0;
+}
