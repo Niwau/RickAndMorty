@@ -1,3 +1,7 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
 body{
   background-color: #187FDE;
   margin: 0;
@@ -17,13 +21,46 @@ body{
   width: 300px;
   border-radius: 15px;
   filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.15));
-  transition: 1s;
+  padding-bottom: 20px;
 }
 
-.card:hover{
-  transform: scale(1.1);
-}
-
-.card > main > img{
+.card img{
   border-radius: 15px 15px 0 0;
+}
+
+.card h3{
+  font-weight: normal;
+  margin: 0;
+}
+
+.card h1{
+  font-size: 25px;
+  margin: 0;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p{
+  color: white;
+  margin: 0;
+  width: fit-content;
+  padding: 0px 15px;
+  border-radius: 10px;
+}
+
+p.alive{
+  background-color: #187FDE;
+}
+
+p.dead{
+  background-color: #DE1818;
+}
+
+p.unknown{
+  background-color: black;
 }
